@@ -2,7 +2,7 @@
 const express = require('express');
 const router = express.Router();
 const auth = require('../middleware/auth');
-const Survey = require('../models/Survey');
+const Survey = require('../models/survey');
 
 // --- (The POST and GET routes for admin do not need changes) ---
 router.post('/', auth, async (req, res) => { /* ...existing code... */ });
